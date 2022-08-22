@@ -11,21 +11,21 @@ function isLampBroken() {
 
 function lampOn() {
   if (!isLampBroken()) {
-    lampada.src = "./img/ligada.jpg";
+    lampada.src = "ligada.jpg";
   }
 }
 //essa função vai mudar o src da img quando a lampada n estiver quebrada
 //e mudará seu src para ligada, assim fará a imagem ir de apagada para ligada
 function lampOff() {
   if (!isLampBroken()) {
-    lampada.src = "./img/desligada.jpg";
+    lampada.src = "desligada.jpg";
   }
 }
 //essa função vai mudar o src da img quando a lampada n estiver quebrada
 //e mudará seu src para desligada, assim fará a imagem ir de ligada para desligada
 
 function lampBroken() {
-  lampada.src = "./img/quebrada.jpg";
+  lampada.src = "quebrada.jpg";
 }
 //essa função é para alterar o estado da lampada para quebrada, apartir de um evento
 function lampOnOff() {
