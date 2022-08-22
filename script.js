@@ -18,7 +18,7 @@ function lampOn() {
 //e mudará seu src para ligada, assim fará a imagem ir de apagada para ligada
 function lampOff() {
   if (!isLampBroken()) {
-    lampada.src = "desligada.jpg";
+    lampada.src = "desligados.jpg";
   }
 }
 //essa função vai mudar o src da img quando a lampada n estiver quebrada
